@@ -16,6 +16,7 @@ func main() {
 	fmt.Println(n2)
 	fmt.Println(n1, s1, r1, f1)
 	//短变量,变量的作用域可以被覆盖
+	// := 表示声明， = 表示赋值
 	temp := 1
 	if true {
 		var n1 int = 10
@@ -23,7 +24,9 @@ func main() {
 		fmt.Println(temp, n1)
 	}
 	fmt.Println(temp)
-	//同时被多个变量赋值
+	//同时被多个变量赋值，右边的表达式将被推演
 	var n3, s2 = 123, "123"
+	var n4, n5, n6 = 4, 5, 6
+	n4, n5, n6 = n6+n4, n4, n5
 	fmt.Println(n3, s2)
 }
