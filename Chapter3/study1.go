@@ -22,4 +22,5 @@ func main() {
 	var p1 *int64 = &i64
 	//p1 = &i32 编译错误，指针也有类型
 	fmt.Println(p1)
+	//var n int8 = i64 类型转换中，要求目标类型能够表示原值
 }
