@@ -11,7 +11,14 @@ const (
 	A = iota
 	B = iota << 1
 	C = iota << 1
-	D = iota << 1
+)
+
+//复用前面一项的表达式和类型
+const (
+	D = 1
+	E
+	F
+	G = 2
 )
 
 func main() {
@@ -36,5 +43,8 @@ func main() {
 	//整型转换成字符串
 	var s5 = strconv.Itoa(1024)
 	fmt.Println(s5)
-	fmt.Println(A, B, C, D)
+	fmt.Println(A, B, C)
+	fmt.Println(D, E, F, G)
+	//无类型常量，精度至少256位，能暂时维持更高的精度
+	fmt.Println(2234567891011123123213553121231 / 1234567891011123123213553121231.0)
 }
