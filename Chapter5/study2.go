@@ -1,5 +1,8 @@
 package main
 
+/**
+多返回值函数、裸返回函数
+*/
 import (
 	"fmt"
 )

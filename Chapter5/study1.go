@@ -1,5 +1,8 @@
 package main
 
+/**
+函数定义、传值方法
+*/
 import (
 	"fmt"
 )
