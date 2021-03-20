@@ -1,7 +1,7 @@
 package main
 
 /**
-函数变量
+函数变量、匿名函数
 */
 import (
 	"fmt"
@@ -12,6 +12,11 @@ func main() {
 	sort(arr, compare1)
 	fmt.Println(arr)
 	sort(arr, compare2)
+	fmt.Println(arr)
+	//匿名函数
+	sort(arr, func(a, b int) bool {
+		return a-b > 0
+	})
 	fmt.Println(arr)
 }
 func compare1(a, b int) bool {
