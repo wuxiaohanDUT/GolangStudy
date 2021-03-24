@@ -1,5 +1,8 @@
 package main
 
+/**
+结构体
+*/
 import (
 	"encoding/json"
 	"fmt"

@@ -1,5 +1,8 @@
 package main
 
+/**
+map
+*/
 import "fmt"
 
 func main() {

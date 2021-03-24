@@ -1,5 +1,8 @@
 package main
 
+/**
+数组的初始化、修改、比较
+*/
 import "fmt"
 
 func main() {

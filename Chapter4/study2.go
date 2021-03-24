@@ -1,5 +1,8 @@
 package main
 
+/**
+slice
+*/
 import "fmt"
 
 func main() {
