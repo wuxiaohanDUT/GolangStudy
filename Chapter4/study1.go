@@ -9,6 +9,7 @@ func main() {
 	//定长数组,数组声明的几种方式
 	var arr1 = [5]int{1, 2, 3, 4, 5}
 	var arr2 = [...]int{1, 2, 3}
+	//var arr2 = []int{1, 2, 3}
 	var arr3 [3]int = [3]int{1, 2, 3}
 	var arr4 = [10]int{1: 12, 3: 18, 9: 20}
 	fmt.Println(arr1, arr2, arr3, arr4)
