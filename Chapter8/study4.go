@@ -4,6 +4,7 @@ package main
 select与channel配合使用
 它用于等待一个或者多个channel的输出
 可以用来处理异步IO操作
+当多个case语句都可以被执行时，伪随机的选择一个执行
 */
 import (
 	"fmt"
