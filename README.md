@@ -37,3 +37,8 @@ Learning records and some code examples
 - sort的使用、自定义排序
 - error接口
 - 类型断言
+
+##第八章
+- goroutine
+- 无缓冲通道、缓冲管道
+- 单向通道类型
