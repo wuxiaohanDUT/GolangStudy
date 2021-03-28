@@ -15,7 +15,7 @@ Learning records and some code examples
 
 ##第四章
 - 数组的声明和初始化
-- slice的作用、就地修改、append函数
+- slice的作用、就地修改、append函数 
 - map（添加、删除、查找、比较）
 - 结构体（比较、嵌套、匿名成员）
 
