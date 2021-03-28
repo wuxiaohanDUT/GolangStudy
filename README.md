@@ -42,3 +42,4 @@ Learning records and some code examples
 - goroutine
 - 无缓冲通道、缓冲管道
 - 单向通道类型
+- select
