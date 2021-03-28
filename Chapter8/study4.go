@@ -3,6 +3,7 @@ package main
 /**
 select与channel配合使用
 它用于等待一个或者多个channel的输出
+可以用来处理异步IO操作
 */
 import (
 	"fmt"
@@ -26,6 +27,8 @@ func read() {
 	case <-time.After(5 * time.Second):
 		fmt.Println("read time out")
 		return
+	default: //所有case都被阻塞时，执行default中的语句，否则select阻塞等待
+		fmt.Println()
 	}
 }
 func main() {
