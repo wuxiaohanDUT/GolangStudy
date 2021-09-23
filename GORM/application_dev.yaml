@@ -1,0 +1,18 @@
+DB:
+  #是否自动创建表
+  AutoCreateTable: true
+  Url: root:123456@tcp(127.0.0.1:3306)/gorm?charset=utf8&parseTime=True&loc=Local
+  Dialect: mysql
+  #设置闲置的连接数
+  MaxIdle: 10
+  #设置最大打开的连接数
+  MaxOpen: 200
+
+#验证
+Valid:
+  #是否开启验证码校验
+  IsLoginValidCaptcha: false
+  #是否开启权限校验
+  IsOpenAuthorization: false
+
+

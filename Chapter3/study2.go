@@ -33,6 +33,8 @@ func main() {
 	fmt.Println(&s2, &s3)
 	//字符 rune-int32
 	var c rune = rune(s1[0])
+	var d = s1[0]
+	fmt.Println(d)
 	fmt.Println(c, unsafe.Sizeof(c))
 	//使用 UFT-8 进行编码
 	var s4 = "你好"

@@ -22,4 +22,5 @@ func main() {
 	var cc2 Celsius = Celsius(ff)
 	//A = 1 常量无法被修改
 	fmt.Println(cc, ff, cc2)
+	fmt.Println(&cc, &ff, &cc2)
 }
